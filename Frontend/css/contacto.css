@@ -1,0 +1,98 @@
+.bradcam_area {
+    background-size: cover;
+    background-position: center center;
+    padding: 90px 0;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.breadcam_bg {
+    background-image: url(../recursos/bradcam.png);
+}
+
+.bradcam_area .bradcam_text h3 span {
+    font-weight: 700;
+}
+
+.inputs,
+.inputs-area{
+    border: 1px solid #e5e6e9;
+    border-radius: 4px !important;
+    height: 51px;
+    padding-left: 29px;
+    font-size: 16px;
+    background: transparent;
+}
+
+
+
+.inputs-area {
+    height: 100% !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: rgb(255, 144, 0) !important;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255, 144, 0, 0.6) !important;
+    outline: 0 none !important;
+}
+
+
+
+.btn-enviar {
+    background: #ff3500;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 12px 50px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    border-radius: 3px;
+    align-self: center !important;
+}
+
+.btn-enviar:hover {
+    background: #fa6f2b;
+    color: #fff;
+    border: 1px solid #fa6f2b;
+}
+
+.btn-enviar:focus {
+    outline: none;
+}
+
+form .boton {
+    text-align: end;
+}
+
+.grupo-info {
+
+    margin-bottom: 25px;
+
+}
+
+.icon-contact {
+
+    margin-right: -71px;
+
+}
+
+.icon-contact i,
+.icon-contact span {
+    color: #ff3500;
+    font-size: 27px;
+}
+
+.grupo-info h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #2a2a2a;
+
+}
+
+.grupo-info p {
+    font-size: 15px;
+    color: #8a8a8a;
+}

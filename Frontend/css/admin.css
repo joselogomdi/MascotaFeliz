@@ -1,0 +1,17 @@
+div .apartado{
+    border-right-color: #d7d7d7;
+    border-right-style: solid;
+}
+
+.user-img img {
+    border-style: solid;
+    border-color: #d7d7d7;
+}
+
+.list .nav-item.active{
+    background-color: #d7d7d7bd!important;
+}
+
+.mt-6{
+    margin-top: 6rem!important;
+}

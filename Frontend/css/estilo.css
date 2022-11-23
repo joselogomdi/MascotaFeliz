@@ -1,0 +1,178 @@
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slider_area .single_slider {
+        height: 600px;
+    }
+}
+
+.slider_area .single_slider {
+    height: 485px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.slider_bg_1 {
+    background-image: url(../recursos/banner.png);
+}
+
+.slider_area .single_slider .slider_text h3, .bradcam_area .bradcam_text h3{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 200;
+    margin-bottom: 4px;
+    line-height: 67px;
+
+}
+
+.slider_area .single_slider .slider_text h3 span{
+    font-weight: 800;
+}
+
+.slider_area .single_slider .slider_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 32px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 12px;
+
+}
+
+.slider_text {
+    text-align: center;
+}
+
+.boxed-btn4 {
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    color: #ff3500;
+    padding: 12px 50px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    border-radius: 3px;
+    align-self: center !important;
+}
+
+a,
+button {
+    outline: medium none;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.boxed-btn4:hover {
+    background: #ff3500;
+    color: #fff;
+    border: 1px solid #ff3500;
+}
+
+.boxed-btn4:focus {
+    outline: none;
+}
+
+/* Imagen de las mascotas en el banner*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slider_area .dog_thumb {
+        right: -10%;
+        text-align: right;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider_area .dog_thumb {
+        right: 0 !important;
+        bottom: -72px !important;
+        text-align: right;
+    }
+}
+
+.slider_area .dog_thumb {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+    bottom: 37px;
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    .d-lg-block {
+        display: block !important;
+    }
+}
+
+/**Contenido del index */
+.section_title h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #191d34;
+    font-family: "Poppins", sans-serif;
+}
+
+.service_area {
+    padding-top: 65px;
+    padding-bottom: 107px;
+}
+
+.section_title p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #909092;
+    font-weight: 400;
+}
+
+.service_area .single_service .service_thumb .service_icon img {
+    height: 140px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+.service_area .single_service .service_content h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Poppins", sans-serif;
+    color: #191d34;
+}*/ 
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #909092;
+    margin-bottom: 13px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.service_area .single_service .service_content p {
+    margin-bottom: 0;
+}
+
+.mb-43 {
+    margin-bottom: 43px;
+}
+
+.navbar-nav .nav-link.active{
+    color :#ff3500;
+}

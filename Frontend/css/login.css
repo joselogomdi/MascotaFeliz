@@ -1,0 +1,10 @@
+.bg{
+    background-image: url(../recursos/fondo.png);
+    background-position: center center;
+}
+
+.icon-contact i,
+.icon-contact span {
+    color: #ff3500;
+    font-size: 27px;
+}
